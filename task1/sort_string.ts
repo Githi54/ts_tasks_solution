@@ -7,6 +7,7 @@ function sortString(str: string): string {
     while (position <= arr.length) {
         if (i === arr.length) {
             i = 0;
+            position++;
         }
   
         if (arr[i].includes(`${position}`)) {
